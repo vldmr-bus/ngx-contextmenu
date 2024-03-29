@@ -85,7 +85,7 @@ const ARROW_LEFT_KEYCODE = 37;
           >
             <ng-template
               [ngTemplateOutlet]="menuItem.template"
-              [ngTemplateOutletContext]="{ $implicit: item }"
+              [ngTemplateOutletContext]="{ item }"
             ></ng-template>
           </a>
 
@@ -99,7 +99,7 @@ const ARROW_LEFT_KEYCODE = 37;
           >
             <ng-template
               [ngTemplateOutlet]="menuItem.template"
-              [ngTemplateOutletContext]="{ $implicit: item }"
+              [ngTemplateOutletContext]="{ item }"
             ></ng-template>
           </span>
         </li>

@@ -3,6 +3,9 @@
     "experimentalDecorators": true,
     "allowJs": true
   },
+  "angularCompilerOptions": {
+    "strictTemplates": true,
+  },
   "references": [
     {
       "path": "./src/tsconfig.app.json"
